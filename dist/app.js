@@ -36,7 +36,7 @@
     const circle = document.createElementNS(NS, 'circle');
     circle.setAttribute('cx', x); circle.setAttribute('cy', y);
     circle.setAttribute('r', i % 13 === 0 ? 3 : i % 5 === 0 ? 2 : 1.3);
-    circle.setAttribute('fill', i % 13 === 0 ? '#d96443' : '#536b48');
+    circle.setAttribute('fill', i % 13 === 0 ? '#d96443' : '#6b87a0');
     circle.setAttribute('opacity', i % 3 === 0 ? '.8' : '.45');
     if (i % 7 === 0) { circle.classList.add('data-pulse'); circle.style.animationDelay = `${random() * -5}s`; }
     document.getElementById('universe-points').appendChild(circle);
@@ -46,7 +46,7 @@
       const distance = Math.hypot(p.x - q.x, p.y - q.y);
       if (distance > 25 && distance < 68) {
         const line = document.createElementNS(NS, 'line');
-        for (const [key, value] of Object.entries({x1:p.x, y1:p.y, x2:q.x, y2:q.y, stroke:'#9ba88f', 'stroke-width':'.55', opacity:'.28'})) line.setAttribute(key, value);
+        for (const [key, value] of Object.entries({x1:p.x, y1:p.y, x2:q.x, y2:q.y, stroke:'#bccbd8', 'stroke-width':'.55', opacity:'.28'})) line.setAttribute(key, value);
         document.getElementById('universe-lines').appendChild(line);
       }
     });
