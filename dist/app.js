@@ -1,4 +1,8 @@
 (() => {
+  if (document.body.dataset.page === 'home' && location.hash === '#data') {
+    location.replace('datasets.html');
+    return;
+  }
   const content = window.siteContent;
   const languageButton = document.querySelector('.language');
   let lang = 'zh';
@@ -56,10 +60,10 @@
     const observer = new IntersectionObserver(entries => {
       entries.forEach(entry => {
         if (entry.isIntersecting) {
-          document.querySelectorAll('.nav a').forEach(a => a.classList.toggle('current', a.hash === `#${entry.target.id}`));
+          document.querySelectorAll('.nav a[href^="#"]').forEach(a => a.classList.toggle('current', a.hash === `#${entry.target.id}`));
         }
       });
     }, {rootMargin:'-15% 0px -50% 0px'});
-    document.querySelectorAll('#home,#approach,#data,#team,#contact').forEach(section => observer.observe(section));
+    document.querySelectorAll('#home,#approach,#team,#contact').forEach(section => observer.observe(section));
   }
 })();

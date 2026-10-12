@@ -17,11 +17,6 @@
     parent.querySelector('.compare-seam').style.left = `${event.target.value}%`;
   });
 
-  if (document.getElementById('home-comparison')) {
-    function renderHome() { document.getElementById('home-comparison').innerHTML = imageCompare(library.items[0].record, true); }
-    renderHome(); window.addEventListener('dataverse:language', renderHome);
-    return;
-  }
   if (!document.getElementById('sample-detail')) return;
   let currentId = library.items.some(x => x.id === location.hash.slice(1)) ? location.hash.slice(1) : library.items[0].id;
   let activeRound = 0;

@@ -41,7 +41,7 @@ Sites 私有预览的部署配置存放在 `.openai/hosting.json`。GitHub Actio
 
 ## 数据样本迁移
 
-首页新增数据展示区域，`datasets.html` 提供单轮图像拖动对比、多轮编辑逐步浏览、文本/SQL/代码阅读、Coding Agent 工具轨迹展开及单条 JSON 下载。
+数据样本位于独立的 `datasets.html` 页面，顶部导航和首页首屏链接直接打开该页。首页仅介绍公司，不加载数据记录或样本查看器。独立页提供单轮图像拖动对比、多轮编辑逐步浏览、文本/SQL/代码阅读、Coding Agent 工具轨迹展开及单条 JSON 下载。
 
 迁移来源为 [OpenDCAI_Data](https://github.com/haolpku/OpenDCAI_Data)，固定版本 `7cd08ea8c830d304b63130c5303c39ae80cc251e`。这是**展示样本迁移**，不是全量训练语料迁移。当前文件实际包含的展示样本数与原 README 的每类 100+ 条描述不同，本站仅显示实际迁入数量。
 
