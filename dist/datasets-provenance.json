@@ -1,0 +1,240 @@
+{
+  "source": {
+    "repository": "https://github.com/haolpku/OpenDCAI_Data",
+    "commit": "7cd08ea8c830d304b63130c5303c39ae80cc251e",
+    "data_url": "https://github.com/haolpku/OpenDCAI_Data/blob/7cd08ea8c830d304b63130c5303c39ae80cc251e/data.js",
+    "license": "not declared in repository",
+    "scope": "Selected display samples; no full training corpus migration."
+  },
+  "selection": [
+    {
+      "id": "single-0",
+      "key": "edits",
+      "index": 0
+    },
+    {
+      "id": "single-1",
+      "key": "edits",
+      "index": 1
+    },
+    {
+      "id": "single-2",
+      "key": "edits",
+      "index": 2
+    },
+    {
+      "id": "multi-0",
+      "key": "img_edit_multi",
+      "index": 0
+    },
+    {
+      "id": "multi-1",
+      "key": "img_edit_multi",
+      "index": 1
+    },
+    {
+      "id": "multi-2",
+      "key": "img_edit_multi",
+      "index": 2
+    },
+    {
+      "id": "sft-0",
+      "key": "text_sft",
+      "index": 0
+    },
+    {
+      "id": "sql-0",
+      "key": "text2sql",
+      "index": 0
+    },
+    {
+      "id": "sql-1",
+      "key": "text2sql",
+      "index": 1
+    },
+    {
+      "id": "sql-2",
+      "key": "text2sql",
+      "index": 2
+    },
+    {
+      "id": "code-0",
+      "key": "code",
+      "index": 0
+    },
+    {
+      "id": "agent-8",
+      "key": "agentic_traj",
+      "index": 8
+    },
+    {
+      "id": "agent-10",
+      "key": "agentic_traj",
+      "index": 10
+    }
+  ],
+  "assets": [
+    {
+      "path": "assets/datasets/multi/conflict_rules/reference.jpg",
+      "source_path": "assets/multi/conflict_rules/reference.jpg",
+      "sha256": "68752c6d5c16c6e538f0a776484240bbeaa80d1004e55bc30509f83e0ae5472f",
+      "bytes": 29597
+    },
+    {
+      "path": "assets/datasets/multi/conflict_rules/round_1.jpg",
+      "source_path": "assets/multi/conflict_rules/round_1.jpg",
+      "sha256": "5952ebda53c93c55259295437f4b9b12690117002ef10fefd30acddcd9ce6f8f",
+      "bytes": 27503
+    },
+    {
+      "path": "assets/datasets/multi/conflict_rules/round_2.jpg",
+      "source_path": "assets/multi/conflict_rules/round_2.jpg",
+      "sha256": "bf60370333edfc7ab2bd492157319c16aea1b36629fd3a92b588145caef2d0f9",
+      "bytes": 29489
+    },
+    {
+      "path": "assets/datasets/multi/conflict_rules/round_3.jpg",
+      "source_path": "assets/multi/conflict_rules/round_3.jpg",
+      "sha256": "e16547a03cb6ab3d1f315520cc654edc7f7553f4e1d3a3307cd3dac2de2f9cac",
+      "bytes": 30339
+    },
+    {
+      "path": "assets/datasets/multi/conflict_rules/round_4.jpg",
+      "source_path": "assets/multi/conflict_rules/round_4.jpg",
+      "sha256": "8f74acd156da4a186a8451459503f4b626ca721eb7a7556680e50ecf7b2839c9",
+      "bytes": 30583
+    },
+    {
+      "path": "assets/datasets/multi/conflict_rules/round_5.jpg",
+      "source_path": "assets/multi/conflict_rules/round_5.jpg",
+      "sha256": "aee3395be0aea9cd0fc71b7370c90b2f1b26c69a706be3332684079cb7a968ff",
+      "bytes": 29372
+    },
+    {
+      "path": "assets/datasets/multi/conflict_rules/round_6.jpg",
+      "source_path": "assets/multi/conflict_rules/round_6.jpg",
+      "sha256": "aeee62d2fb47f86587f255ec25fadbdad9ba938ef6fac38234adad46863bd8aa",
+      "bytes": 30983
+    },
+    {
+      "path": "assets/datasets/multi/conflict_rules/round_7.jpg",
+      "source_path": "assets/multi/conflict_rules/round_7.jpg",
+      "sha256": "971abdb08d933a76fdfadcb5a948657ccdd6ca5bbc1db705fd1b3e87cd3432c5",
+      "bytes": 31171
+    },
+    {
+      "path": "assets/datasets/multi/conflict_rules/round_8.jpg",
+      "source_path": "assets/multi/conflict_rules/round_8.jpg",
+      "sha256": "042788fc34d75ca6d67a90bb919c2bcc36366e0cf539be296cf5e60043d4b6cc",
+      "bytes": 32904
+    },
+    {
+      "path": "assets/datasets/multi/cross_version/reference.jpg",
+      "source_path": "assets/multi/cross_version/reference.jpg",
+      "sha256": "9ae2105e596e1f4ee3f3f972b37b67c29579bd9ba89837605ed9f35c71716709",
+      "bytes": 86447
+    },
+    {
+      "path": "assets/datasets/multi/cross_version/round_1.jpg",
+      "source_path": "assets/multi/cross_version/round_1.jpg",
+      "sha256": "f546af4ca6213302716a024b880fefac1db120fe7ac893185d0b1b3631ff1bab",
+      "bytes": 81120
+    },
+    {
+      "path": "assets/datasets/multi/cross_version/round_2.jpg",
+      "source_path": "assets/multi/cross_version/round_2.jpg",
+      "sha256": "da0b5cbd43b75b3cc824eaf8a38ed04cd9ff9253d669cb4e3ea147a7bd54e4f0",
+      "bytes": 75896
+    },
+    {
+      "path": "assets/datasets/multi/cross_version/round_3.jpg",
+      "source_path": "assets/multi/cross_version/round_3.jpg",
+      "sha256": "4d28badf1dccd0e6cd61e24190fc5534daaaa74b43b54875c5b6c2f7e75ba376",
+      "bytes": 75849
+    },
+    {
+      "path": "assets/datasets/multi/cross_version/round_4.jpg",
+      "source_path": "assets/multi/cross_version/round_4.jpg",
+      "sha256": "2e63d9f5e1fb7a8a3f63494d0851a8ff25276bdde87a2ca28c918182e2f7fc57",
+      "bytes": 88264
+    },
+    {
+      "path": "assets/datasets/multi/cross_version/round_5.jpg",
+      "source_path": "assets/multi/cross_version/round_5.jpg",
+      "sha256": "4ab46438afad2c345d1a19889611e58cd0872bef09bf8d1a9a9a2caa2528da48",
+      "bytes": 85762
+    },
+    {
+      "path": "assets/datasets/multi/explicit_references/reference.jpg",
+      "source_path": "assets/multi/explicit_references/reference.jpg",
+      "sha256": "f8fb6cf1732d369ac714c33651cb062e181a2fa1847babc89981034310d5a5e8",
+      "bytes": 44479
+    },
+    {
+      "path": "assets/datasets/multi/explicit_references/round_1.jpg",
+      "source_path": "assets/multi/explicit_references/round_1.jpg",
+      "sha256": "eaf47db58ca8100fafc6e80e35463ecc2699919ee8e6c49da34f737c8e374656",
+      "bytes": 41502
+    },
+    {
+      "path": "assets/datasets/multi/explicit_references/round_2.jpg",
+      "source_path": "assets/multi/explicit_references/round_2.jpg",
+      "sha256": "f3bbd30deeb8b23c04677c0a5cfa8e8a79beb4647eb08ecfa3670aa0ea0c9209",
+      "bytes": 42625
+    },
+    {
+      "path": "assets/datasets/multi/explicit_references/round_3.jpg",
+      "source_path": "assets/multi/explicit_references/round_3.jpg",
+      "sha256": "a4bbb9744f218d4f7658effdd28974b8f9d43d49669e06ed57c0bdbf2fc70b99",
+      "bytes": 43914
+    },
+    {
+      "path": "assets/datasets/multi/explicit_references/round_4.jpg",
+      "source_path": "assets/multi/explicit_references/round_4.jpg",
+      "sha256": "4bc53873f466d948bf153f217d303ec676d45ad027f7ff237cf682762822dbc6",
+      "bytes": 49068
+    },
+    {
+      "path": "assets/datasets/multi/explicit_references/round_5.jpg",
+      "source_path": "assets/multi/explicit_references/round_5.jpg",
+      "sha256": "a6b9f6f28ac1c86a5897ebbbd4e7766553783d2f956fcd8333059e5468f39dd3",
+      "bytes": 46263
+    },
+    {
+      "path": "assets/datasets/thumbs/general/deliver_0001_after.jpg",
+      "source_path": "assets/thumbs/general/deliver_0001_after.jpg",
+      "sha256": "eb46a308782fda8042d25f15a4c7765d95b5e90cf01fbbd8e2b2b6e84c7cb5de",
+      "bytes": 34131
+    },
+    {
+      "path": "assets/datasets/thumbs/general/deliver_0001_before.jpg",
+      "source_path": "assets/thumbs/general/deliver_0001_before.jpg",
+      "sha256": "50ba7651f7a564f9b89bd868b047aa707108bdbd838e15e9f901f834cc763601",
+      "bytes": 31863
+    },
+    {
+      "path": "assets/datasets/thumbs/general/deliver_0002_after.jpg",
+      "source_path": "assets/thumbs/general/deliver_0002_after.jpg",
+      "sha256": "437eac79f432ae87e1f990488167dc2a5f4cc252ba1b65e03c7b3b16b3030338",
+      "bytes": 42745
+    },
+    {
+      "path": "assets/datasets/thumbs/general/deliver_0002_before.jpg",
+      "source_path": "assets/thumbs/general/deliver_0002_before.jpg",
+      "sha256": "fa18a2c647332bda2d1a173c966474af423507a0b3dbcc4919d7329eb49e43a1",
+      "bytes": 26991
+    },
+    {
+      "path": "assets/datasets/thumbs/general/deliver_0003_after.jpg",
+      "source_path": "assets/thumbs/general/deliver_0003_after.jpg",
+      "sha256": "8494bdbdc53f398030e30d8dbfabd5bf196844bd148bb19477ab02e40c9a41b0",
+      "bytes": 49249
+    },
+    {
+      "path": "assets/datasets/thumbs/general/deliver_0003_before.jpg",
+      "source_path": "assets/thumbs/general/deliver_0003_before.jpg",
+      "sha256": "0e9f88af960aabca01422f62714ded3d11d5dfe3d7ceea1b01ed68dd8bc03b6b",
+      "bytes": 50580
+    }
+  ]
+}

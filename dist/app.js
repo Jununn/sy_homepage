@@ -19,11 +19,13 @@
     document.querySelector('.lang-zh').classList.toggle('selected', lang === 'zh');
     document.querySelector('.lang-en').classList.toggle('selected', lang === 'en');
     try { localStorage.setItem('dataverse-language', lang); } catch {}
+    window.dispatchEvent(new CustomEvent('dataverse:language'));
   }
   applyLanguage(lang);
   languageButton.addEventListener('click', () => applyLanguage(lang === 'zh' ? 'en' : 'zh'));
   document.getElementById('year').textContent = new Date().getFullYear();
   // Deterministic, lightweight illustration with no WebGL or dependencies.
+  if (document.getElementById('data-universe')) {
   const NS = 'http://www.w3.org/2000/svg';
   const points = []; let seed = 42;
   const random = () => { seed = (seed * 16807) % 2147483647; return (seed - 1) / 2147483646; };
@@ -49,6 +51,7 @@
       }
     });
   });
+  }
   if ('IntersectionObserver' in window) {
     const observer = new IntersectionObserver(entries => {
       entries.forEach(entry => {
@@ -57,6 +60,6 @@
         }
       });
     }, {rootMargin:'-15% 0px -50% 0px'});
-    document.querySelectorAll('#home,#approach,#team,#contact').forEach(section => observer.observe(section));
+    document.querySelectorAll('#home,#approach,#data,#team,#contact').forEach(section => observer.observe(section));
   }
 })();
