@@ -1,0 +1,10 @@
+{
+  "name": "dataverse-homepage",
+  "version": "1.0.0",
+  "private": true,
+  "description": "DataVerse bilingual company homepage",
+  "scripts": {
+    "dev": "python3 -m http.server 4173 --directory dist --bind 127.0.0.1",
+    "check": "node scripts/check.mjs"
+  }
+}
